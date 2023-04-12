@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea0eebaa-bc7c-4aad-bf4a-ddaa9b9f5185" name="Default Changelist" comment="remove address&#10;remove facebook page&#10;add bovista experience&#10;removed extra web tools&#10;remove extra rewards">
-      <change afterPath="$PROJECT_DIR$/img/my_safari_agent_poster.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sportize_poster.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="ea0eebaa-bc7c-4aad-bf4a-ddaa9b9f5185" name="Default Changelist" comment="removed suhtech junior developer experience&#10;Compact other experiences">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,11 +75,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "D:/Userdata/Portfolio/Resume/img"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;D:/Userdata/Portfolio/Resume/img&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Userdata\Portfolio\Resume\img" />
@@ -122,7 +120,42 @@
       <option name="project" value="LOCAL" />
       <updated>1660389166984</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added 2 new apps (My Safari Agent, Sportise)&#10;updated the experiences according to flowcv">
+      <created>1671187393922</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671187393922</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Certificate credentials updated">
+      <created>1675071821467</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675071821467</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Borvista Company end date">
+      <created>1677924901790</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677924901790</updated>
+    </task>
+    <task id="LOCAL-00007" summary="my safari passenger app added in 'my work'">
+      <created>1678089207415</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678089207415</updated>
+    </task>
+    <task id="LOCAL-00008" summary="removed suhtech junior developer experience&#10;Compact other experiences">
+      <created>1678189062225</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678189062225</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -168,7 +201,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added developer badges in achievement" />
     <MESSAGE value="remove address&#10;remove facebook page&#10;add bovista experience&#10;removed extra web tools&#10;remove extra rewards" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove address&#10;remove facebook page&#10;add bovista experience&#10;removed extra web tools&#10;remove extra rewards" />
+    <MESSAGE value="Added 2 new apps (My Safari Agent, Sportise)&#10;updated the experiences according to flowcv" />
+    <MESSAGE value="Certificate credentials updated" />
+    <MESSAGE value="Borvista Company end date" />
+    <MESSAGE value="my safari passenger app added in 'my work'" />
+    <MESSAGE value="removed suhtech junior developer experience&#10;Compact other experiences" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed suhtech junior developer experience&#10;Compact other experiences" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
