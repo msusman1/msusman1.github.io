@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea0eebaa-bc7c-4aad-bf4a-ddaa9b9f5185" name="Default Changelist" comment="removed suhtech junior developer experience&#10;Compact other experiences">
+    <list default="true" id="ea0eebaa-bc7c-4aad-bf4a-ddaa9b9f5185" name="Default Changelist" comment="updated Borvista end date">
+      <change afterPath="$PROJECT_DIR$/img/accessByphone_poster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/boshhh_poster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/lopos_poster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/watchmode_poster.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +56,9 @@
     <option name="height" value="744" />
   </component>
   <component name="ProjectId" id="2DIXgSlJ3f4QvPccl3m08Nh7JOm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -75,11 +82,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;last_opened_file_path&quot;: &quot;D:/Userdata/Portfolio/Resume/img&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Userdata/Portfolio/Resume/img",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Userdata\Portfolio\Resume\img" />
@@ -98,6 +110,7 @@
       <updated>1652955828639</updated>
       <workItem from="1652955830511" duration="930000" />
       <workItem from="1654713041300" duration="32000" />
+      <workItem from="1705918746186" duration="3866000" />
     </task>
     <task id="LOCAL-00001" summary="added developer badges in achievement">
       <created>1652956156439</created>
@@ -155,7 +168,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678189062225</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added section in Core Responsibilities for Borvista experience">
+      <created>1681295293341</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681295293341</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Meta android developer certificate added&#10;replace engineer to developer">
+      <created>1684388891471</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684388891471</updated>
+    </task>
+    <task id="LOCAL-00011" summary="updated Borvista end date">
+      <created>1684389388979</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684389388979</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -185,7 +219,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -206,7 +240,10 @@
     <MESSAGE value="Borvista Company end date" />
     <MESSAGE value="my safari passenger app added in 'my work'" />
     <MESSAGE value="removed suhtech junior developer experience&#10;Compact other experiences" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed suhtech junior developer experience&#10;Compact other experiences" />
+    <MESSAGE value="added section in Core Responsibilities for Borvista experience" />
+    <MESSAGE value="Meta android developer certificate added&#10;replace engineer to developer" />
+    <MESSAGE value="updated Borvista end date" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated Borvista end date" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
