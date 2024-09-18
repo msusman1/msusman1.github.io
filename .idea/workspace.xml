@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ea0eebaa-bc7c-4aad-bf4a-ddaa9b9f5185" name="Default Changelist" comment="updated Borvista end date">
-      <change afterPath="$PROJECT_DIR$/img/accessByphone_poster.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/boshhh_poster.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/lopos_poster.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/watchmode_poster.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -49,6 +48,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -87,7 +89,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/Userdata/Portfolio/Resume/img",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -96,6 +103,13 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Userdata\Portfolio\Resume\img" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.17011.90" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -111,6 +125,7 @@
       <workItem from="1652955830511" duration="930000" />
       <workItem from="1654713041300" duration="32000" />
       <workItem from="1705918746186" duration="3866000" />
+      <workItem from="1726670673599" duration="1901000" />
     </task>
     <task id="LOCAL-00001" summary="added developer badges in achievement">
       <created>1652956156439</created>
