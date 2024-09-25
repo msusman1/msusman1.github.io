@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea0eebaa-bc7c-4aad-bf4a-ddaa9b9f5185" name="Default Changelist" comment="updated Borvista end date">
+    <list default="true" id="ea0eebaa-bc7c-4aad-bf4a-ddaa9b9f5185" name="Default Changelist" comment="Added Lopos, Armour Payment Experiences">
+      <change afterPath="$PROJECT_DIR$/img/bedtime_story_ai_poster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/give_tree_web_poster.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/givetree_poster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/lopos_ios_poster.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -48,9 +52,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -90,7 +94,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Userdata/Portfolio/Resume/img",
+    "last_opened_file_path": "/Users/msusman/Personal/UsmanResumeWebsite/img",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -101,6 +105,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
       <recent name="D:\Userdata\Portfolio\Resume\img" />
     </key>
   </component>
@@ -125,7 +130,8 @@
       <workItem from="1652955830511" duration="930000" />
       <workItem from="1654713041300" duration="32000" />
       <workItem from="1705918746186" duration="3866000" />
-      <workItem from="1726670673599" duration="1901000" />
+      <workItem from="1726670673599" duration="1974000" />
+      <workItem from="1727234258396" duration="5773000" />
     </task>
     <task id="LOCAL-00001" summary="added developer badges in achievement">
       <created>1652956156439</created>
@@ -204,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1684389388979</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added Lopos, Armour Payment Experiences">
+      <option name="closed" value="true" />
+      <created>1726673186585</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1726673186585</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -258,7 +272,8 @@
     <MESSAGE value="added section in Core Responsibilities for Borvista experience" />
     <MESSAGE value="Meta android developer certificate added&#10;replace engineer to developer" />
     <MESSAGE value="updated Borvista end date" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated Borvista end date" />
+    <MESSAGE value="Added Lopos, Armour Payment Experiences" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Lopos, Armour Payment Experiences" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
