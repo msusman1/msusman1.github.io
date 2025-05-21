@@ -4,44 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea0eebaa-bc7c-4aad-bf4a-ddaa9b9f5185" name="Default Changelist" comment="Added Poly Speaker and Seed app">
-      <change afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_next/static/chunks/11eacf67-8dfa035c200a4aee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_next/static/chunks/583-caaa31a24fd04cfe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_next/static/chunks/650-8eb72f5c2cbf863c.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_next/static/chunks/91-e600634f964e31e0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_next/static/chunks/954-a3a1819bacf31698.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_next/static/chunks/app/_not-found/page-c98415f1328e1b57.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_next/static/chunks/app/layout-d73d2db2c4dc3304.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_next/static/chunks/app/page-ce5703a6dd78fc4f.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_next/static/chunks/framework-b15a92ee3a12a162.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_next/static/chunks/main-7473c13993a8b708.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_next/static/chunks/main-app-c1a5486ea74f92ab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_next/static/chunks/pages/_app-8fd606e0cc14f6b6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_next/static/chunks/pages/_error-ecdbe281c221e21f.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_next/static/chunks/polyfills-42372ed130431b0a.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_next/static/chunks/webpack-0fac5a0194bbc25d.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_next/static/css/44a6435435cb9666.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_next/static/media/26a46d62cd723877-s.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_next/static/media/55c55f0601d81cf3-s.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_next/static/media/581909926a08bbc8-s.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_next/static/media/6d93bde91c0c2823-s.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_next/static/media/97e0cb1ae144a2a9-s.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_next/static/media/a34f9d1faa5f3315-s.p.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_next/static/media/df0a9ae256c0569c-s.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_next/static/zo-tCGYvdIJpMXsEZbMLS/_buildManifest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_next/static/zo-tCGYvdIJpMXsEZbMLS/_ssgManifest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/profile.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/placeholder-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/placeholder-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/placeholder-user.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/placeholder.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/placeholder.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/profile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="ea0eebaa-bc7c-4aad-bf4a-ddaa9b9f5185" name="Default Changelist" comment="updated portfolio" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,7 +144,7 @@
       <workItem from="1732377406089" duration="12000" />
       <workItem from="1740043792597" duration="3192000" />
       <workItem from="1746104817380" duration="41000" />
-      <workItem from="1747813984142" duration="4900000" />
+      <workItem from="1747813984142" duration="5215000" />
     </task>
     <task id="LOCAL-00001" summary="added developer badges in achievement">
       <created>1652956156439</created>
@@ -364,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740046673621</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="updated portfolio">
+      <option name="closed" value="true" />
+      <created>1747841811833</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1747841811833</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -424,7 +395,8 @@
     <MESSAGE value="CV Updated" />
     <MESSAGE value="Minor changes" />
     <MESSAGE value="Added Poly Speaker and Seed app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Poly Speaker and Seed app" />
+    <MESSAGE value="updated portfolio" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated portfolio" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
