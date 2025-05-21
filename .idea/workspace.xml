@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea0eebaa-bc7c-4aad-bf4a-ddaa9b9f5185" name="Default Changelist" comment="updated portfolio" />
+    <list default="true" id="ea0eebaa-bc7c-4aad-bf4a-ddaa9b9f5185" name="Default Changelist" comment="updated portfolio on main branch">
+      <change beforePath="$PROJECT_DIR$/dist/cache/webpack/client-development/index.pack.gz" beforeDir="false" afterPath="$PROJECT_DIR$/dist/cache/webpack/client-development/index.pack.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/cache/webpack/client-development/index.pack.gz.old" beforeDir="false" afterPath="$PROJECT_DIR$/dist/cache/webpack/client-development/index.pack.gz.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/chunks/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/chunks/app/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/static/chunks/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/static/chunks/webpack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/trace" beforeDir="false" afterPath="$PROJECT_DIR$/dist/trace" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,19 +98,20 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/msusman/Personal/UsmanResumeWebsite/img",
+    "last_opened_file_path": "/Users/msusman/Personal/UsmanResumeWebsite",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/msusman/Personal/UsmanResumeWebsite/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/pdf" />
       <recent name="D:\Userdata\Portfolio\Resume\img" />
     </key>
@@ -144,7 +151,7 @@
       <workItem from="1732377406089" duration="12000" />
       <workItem from="1740043792597" duration="3192000" />
       <workItem from="1746104817380" duration="41000" />
-      <workItem from="1747813984142" duration="5215000" />
+      <workItem from="1747813984142" duration="6138000" />
     </task>
     <task id="LOCAL-00001" summary="added developer badges in achievement">
       <created>1652956156439</created>
@@ -335,7 +342,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747841811833</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="updated portfolio on main branch">
+      <option name="closed" value="true" />
+      <created>1747842706634</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1747842706634</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -396,7 +411,8 @@
     <MESSAGE value="Minor changes" />
     <MESSAGE value="Added Poly Speaker and Seed app" />
     <MESSAGE value="updated portfolio" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated portfolio" />
+    <MESSAGE value="updated portfolio on main branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated portfolio on main branch" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
