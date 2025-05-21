@@ -4,18 +4,53 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea0eebaa-bc7c-4aad-bf4a-ddaa9b9f5185" name="Default Changelist" comment="Added Lopos, Armour Payment Experiences">
-      <change afterPath="$PROJECT_DIR$/img/bedtime_story_ai_poster.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/give_tree_web_poster.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/givetree_poster.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/lopos_ios_poster.png" afterDir="false" />
+    <list default="true" id="ea0eebaa-bc7c-4aad-bf4a-ddaa9b9f5185" name="Default Changelist" comment="Added Poly Speaker and Seed app">
+      <change afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_next/static/chunks/11eacf67-8dfa035c200a4aee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_next/static/chunks/583-caaa31a24fd04cfe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_next/static/chunks/650-8eb72f5c2cbf863c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_next/static/chunks/91-e600634f964e31e0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_next/static/chunks/954-a3a1819bacf31698.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_next/static/chunks/app/_not-found/page-c98415f1328e1b57.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_next/static/chunks/app/layout-d73d2db2c4dc3304.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_next/static/chunks/app/page-ce5703a6dd78fc4f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_next/static/chunks/framework-b15a92ee3a12a162.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_next/static/chunks/main-7473c13993a8b708.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_next/static/chunks/main-app-c1a5486ea74f92ab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_next/static/chunks/pages/_app-8fd606e0cc14f6b6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_next/static/chunks/pages/_error-ecdbe281c221e21f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_next/static/chunks/polyfills-42372ed130431b0a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_next/static/chunks/webpack-0fac5a0194bbc25d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_next/static/css/44a6435435cb9666.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_next/static/media/26a46d62cd723877-s.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_next/static/media/55c55f0601d81cf3-s.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_next/static/media/581909926a08bbc8-s.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_next/static/media/6d93bde91c0c2823-s.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_next/static/media/97e0cb1ae144a2a9-s.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_next/static/media/a34f9d1faa5f3315-s.p.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_next/static/media/df0a9ae256c0569c-s.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_next/static/zo-tCGYvdIJpMXsEZbMLS/_buildManifest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_next/static/zo-tCGYvdIJpMXsEZbMLS/_ssgManifest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/profile.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/placeholder-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/placeholder-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/placeholder-user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/placeholder.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/placeholder.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/profile.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -24,12 +59,12 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -93,7 +128,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/msusman/Personal/UsmanResumeWebsite/img",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -106,6 +141,8 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/pdf" />
       <recent name="D:\Userdata\Portfolio\Resume\img" />
     </key>
   </component>
@@ -131,7 +168,20 @@
       <workItem from="1654713041300" duration="32000" />
       <workItem from="1705918746186" duration="3866000" />
       <workItem from="1726670673599" duration="1974000" />
-      <workItem from="1727234258396" duration="5773000" />
+      <workItem from="1727234258396" duration="5853000" />
+      <workItem from="1727361346413" duration="464000" />
+      <workItem from="1727446585501" duration="912000" />
+      <workItem from="1727707848956" duration="37000" />
+      <workItem from="1727893050090" duration="40000" />
+      <workItem from="1727956316817" duration="16000" />
+      <workItem from="1727964401566" duration="1659000" />
+      <workItem from="1728656096027" duration="45000" />
+      <workItem from="1728913058473" duration="105000" />
+      <workItem from="1730910026210" duration="152000" />
+      <workItem from="1732377406089" duration="12000" />
+      <workItem from="1740043792597" duration="3192000" />
+      <workItem from="1746104817380" duration="41000" />
+      <workItem from="1747813984142" duration="4900000" />
     </task>
     <task id="LOCAL-00001" summary="added developer badges in achievement">
       <created>1652956156439</created>
@@ -218,7 +268,103 @@
       <option name="project" value="LOCAL" />
       <updated>1726673186585</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added 4 new projects&#10;* Lopos IOs&#10;* Bedtime Story AI&#10;* GiveTree App/web">
+      <option name="closed" value="true" />
+      <created>1727240784876</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1727240784876</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Updated skills section">
+      <option name="closed" value="true" />
+      <created>1727361607675</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1727361607675</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Updated skills section">
+      <option name="closed" value="true" />
+      <created>1727446628785</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1727446628785</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Updated skills section">
+      <option name="closed" value="true" />
+      <created>1727707877535</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1727707877535</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Updated skills section">
+      <option name="closed" value="true" />
+      <created>1727893086673</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1727893086673</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Updated skills section">
+      <option name="closed" value="true" />
+      <created>1727956327821</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1727956327821</updated>
+    </task>
+    <task id="LOCAL-00019" summary="CV Updated">
+      <option name="closed" value="true" />
+      <created>1727967243169</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1727967243169</updated>
+    </task>
+    <task id="LOCAL-00020" summary="CV Updated">
+      <option name="closed" value="true" />
+      <created>1728656134825</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1728656134825</updated>
+    </task>
+    <task id="LOCAL-00021" summary="CV Updated">
+      <option name="closed" value="true" />
+      <created>1728913158966</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1728913158966</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Minor changes">
+      <option name="closed" value="true" />
+      <created>1730910115948</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1730910115948</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Minor changes">
+      <option name="closed" value="true" />
+      <created>1732377413969</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1732377413970</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Added Poly Speaker and Seed app">
+      <option name="closed" value="true" />
+      <created>1740046673621</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1740046673621</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -273,7 +419,12 @@
     <MESSAGE value="Meta android developer certificate added&#10;replace engineer to developer" />
     <MESSAGE value="updated Borvista end date" />
     <MESSAGE value="Added Lopos, Armour Payment Experiences" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Lopos, Armour Payment Experiences" />
+    <MESSAGE value="Added 4 new projects&#10;* Lopos IOs&#10;* Bedtime Story AI&#10;* GiveTree App/web" />
+    <MESSAGE value="Updated skills section" />
+    <MESSAGE value="CV Updated" />
+    <MESSAGE value="Minor changes" />
+    <MESSAGE value="Added Poly Speaker and Seed app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Poly Speaker and Seed app" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
