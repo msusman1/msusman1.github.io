@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea0eebaa-bc7c-4aad-bf4a-ddaa9b9f5185" name="Default Changelist" comment="overall improve the web UI and performance">
+    <list default="true" id="ea0eebaa-bc7c-4aad-bf4a-ddaa9b9f5185" name="Default Changelist" comment="added client review section.">
+      <change afterPath="$PROJECT_DIR$/public/img/profile2.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional_profile_specs.md" beforeDir="false" afterPath="$PROJECT_DIR$/professional_profile_specs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/hero.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,23 +71,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.352536237398782" />
-      <entry key="MS500" value="3.695051681135306" />
-      <entry key="S2" value="11.482318758950008" />
-      <entry key="S5" value="24.68005106945199" />
-      <entry key="S10" value="41.20016234429733" />
-      <entry key="S30" value="78.28890788787034" />
-      <entry key="S60" value="99.45379093903775" />
-      <entry key="M2" value="115.23009708469426" />
-      <entry key="M5" value="129.65606663419362" />
-      <entry key="M10" value="141.1785906691835" />
-      <entry key="M15" value="149.8550187624667" />
-      <entry key="M30" value="168.6521842116125" />
-      <entry key="H1" value="217.31583888773008" />
-      <entry key="H2" value="329.5557948680199" />
-      <entry key="H4" value="466.38912362192013" />
-      <entry key="D1" value="671.029332682088" />
-      <entry key="W1" value="718.6272950957626" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.000000028775452" />
+      <entry key="S5" value="1.0010681245723552" />
+      <entry key="S10" value="1.0413377347427182" />
+      <entry key="S30" value="1.5319600762554726" />
+      <entry key="S60" value="2.0374421968136875" />
+      <entry key="M2" value="3.507078775822073" />
+      <entry key="M5" value="23.170711393236775" />
+      <entry key="M10" value="60.499772202591345" />
+      <entry key="M15" value="86.87891515422281" />
+      <entry key="M30" value="132.35061641164648" />
+      <entry key="H1" value="196.34344810978047" />
+      <entry key="H2" value="316.07870811473475" />
+      <entry key="H4" value="460.40607775510716" />
+      <entry key="D1" value="679.4234343360301" />
+      <entry key="W1" value="730.9211329893977" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -110,23 +109,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.3254035219924585" />
-      <entry key="MS500" value="3.681787340032356" />
-      <entry key="S2" value="11.472178381741639" />
-      <entry key="S5" value="24.671126257127842" />
-      <entry key="S10" value="41.192658349368656" />
-      <entry key="S30" value="78.28401647593346" />
-      <entry key="S60" value="99.45041224651007" />
-      <entry key="M2" value="115.22789399468884" />
-      <entry key="M5" value="129.6548919374219" />
-      <entry key="M10" value="141.17781217857083" />
-      <entry key="M15" value="149.8543893439612" />
-      <entry key="M30" value="168.65174442262088" />
-      <entry key="H1" value="217.31545255484514" />
-      <entry key="H2" value="329.55541098707045" />
-      <entry key="H4" value="466.38881641223634" />
-      <entry key="D1" value="671.0292529412886" />
-      <entry key="W1" value="718.6272827593128" />
+      <entry key="MS100" value="0.15389305166811454" />
+      <entry key="MS500" value="0.6877709090698718" />
+      <entry key="S2" value="0.9106698602167399" />
+      <entry key="S5" value="0.9642933839502373" />
+      <entry key="S10" value="1.0219582233445292" />
+      <entry key="S30" value="1.5215454539329478" />
+      <entry key="S60" value="2.030110539210917" />
+      <entry key="M2" value="3.5024755224187722" />
+      <entry key="M5" value="23.168314887413334" />
+      <entry key="M10" value="60.49823795859254" />
+      <entry key="M15" value="86.87772080952836" />
+      <entry key="M30" value="132.34984240112152" />
+      <entry key="H1" value="196.3428848590038" />
+      <entry key="H2" value="316.0782349537578" />
+      <entry key="H4" value="460.405722672773" />
+      <entry key="D1" value="679.4233450413499" />
+      <entry key="W1" value="730.9211192211592" />
     </decayedShown>
   </component>
   <component name="NodePackageJsonFileManager">
@@ -512,7 +511,15 @@
       <option name="project" value="LOCAL" />
       <updated>1791802654535</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="added client review section.">
+      <option name="closed" value="true" />
+      <created>1791805251958</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1791805251958</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -571,7 +578,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added developer badges in achievement" />
     <MESSAGE value="remove address&#10;remove facebook page&#10;add bovista experience&#10;removed extra web tools&#10;remove extra rewards" />
     <MESSAGE value="Added 2 new apps (My Safari Agent, Sportise)&#10;updated the experiences according to flowcv" />
     <MESSAGE value="Certificate credentials updated" />
@@ -596,7 +602,8 @@
     <MESSAGE value="remove day picker" />
     <MESSAGE value="update artifact path" />
     <MESSAGE value="overall improve the web UI and performance" />
-    <option name="LAST_COMMIT_MESSAGE" value="overall improve the web UI and performance" />
+    <MESSAGE value="added client review section." />
+    <option name="LAST_COMMIT_MESSAGE" value="added client review section." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
