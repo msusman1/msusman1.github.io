@@ -4,63 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea0eebaa-bc7c-4aad-bf4a-ddaa9b9f5185" name="Default Changelist" comment="update artifact path">
-      <change afterPath="$PROJECT_DIR$/professional_profile_specs.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/accessByphone_poster.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/admin_poster.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/amadz_poster.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/amadz_poster.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/bedtime_story_ai_poster.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/boshhh_poster.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/city_trafic_police_sialkot_poster.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/colorme_poster.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/compose_card_poster.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/devine_script_poster.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/exime_poster.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/give_tree_web_poster.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/givetree_poster.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/lopos_ios_poster.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/lopos_poster.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/mentiva_poster.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/mentiva_poster.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/miracles.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/my_safari_agent_poster.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/poly_speaker_poster.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/profile.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/rentrak_poster.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/safari_passenger_poster.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/seed_poster.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/shahn_app_poster.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/sportize_poster.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/swmc_citizen_poster.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/swmc_operations_poster.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/tamseel_ai_poster.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/tamseel_ai_poster.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/trendpk_poster.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/watchmode_poster.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/clean.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Resume.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Resume.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/resume-bootstrap4-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/resume-bootstrap4-master.iml" afterDir="false" />
+    <list default="true" id="ea0eebaa-bc7c-4aad-bf4a-ddaa9b9f5185" name="Default Changelist" comment="overall improve the web UI and performance">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/about.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/certifications.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/certifications.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/contact.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/education.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/education.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/experience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/experience.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/footer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/hero.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/interests.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/interests.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/projects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/skills.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ui/calendar.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hooks/use-mobile.ts" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/use-mobile.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/professional_profile_specs.md" beforeDir="false" afterPath="$PROJECT_DIR$/professional_profile_specs.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,23 +72,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0000000000000002" />
-      <entry key="S10" value="1.000000012948857" />
-      <entry key="S30" value="1.0023482471930045" />
-      <entry key="S60" value="1.0484587163780834" />
-      <entry key="M2" value="1.2201339207363895" />
-      <entry key="M5" value="1.5557714149000548" />
-      <entry key="M10" value="2.0585843370968915" />
-      <entry key="M15" value="3.4470664529209065" />
-      <entry key="M30" value="23.909326298263267" />
-      <entry key="H1" value="106.57331248836982" />
-      <entry key="H2" value="236.12189834418075" />
-      <entry key="H4" value="353.60027972423256" />
-      <entry key="D1" value="496.12766013782374" />
-      <entry key="W1" value="525.8701177526623" />
+      <entry key="MS100" value="1.352536237398782" />
+      <entry key="MS500" value="3.695051681135306" />
+      <entry key="S2" value="11.482318758950008" />
+      <entry key="S5" value="24.68005106945199" />
+      <entry key="S10" value="41.20016234429733" />
+      <entry key="S30" value="78.28890788787034" />
+      <entry key="S60" value="99.45379093903775" />
+      <entry key="M2" value="115.23009708469426" />
+      <entry key="M5" value="129.65606663419362" />
+      <entry key="M10" value="141.1785906691835" />
+      <entry key="M15" value="149.8550187624667" />
+      <entry key="M30" value="168.6521842116125" />
+      <entry key="H1" value="217.31583888773008" />
+      <entry key="H2" value="329.5557948680199" />
+      <entry key="H4" value="466.38912362192013" />
+      <entry key="D1" value="671.029332682088" />
+      <entry key="W1" value="718.6272950957626" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -162,23 +110,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8585654364377537" />
-      <entry key="MS500" value="0.9699619103417348" />
-      <entry key="S2" value="0.9924043746858185" />
-      <entry key="S5" value="0.996954798466252" />
-      <entry key="S10" value="0.9984762511864238" />
-      <entry key="S30" value="1.0018357861101779" />
-      <entry key="S60" value="1.0481603893347444" />
-      <entry key="M2" value="1.2199064230351693" />
-      <entry key="M5" value="1.5556208438252133" />
-      <entry key="M10" value="2.0584891116104265" />
-      <entry key="M15" value="3.446985168067873" />
-      <entry key="M30" value="23.90914557107259" />
-      <entry key="H1" value="106.57293859376765" />
-      <entry key="H2" value="236.12149236087362" />
-      <entry key="H4" value="353.59997842089643" />
-      <entry key="D1" value="496.1275901852818" />
-      <entry key="W1" value="525.8701071733843" />
+      <entry key="MS100" value="1.3254035219924585" />
+      <entry key="MS500" value="3.681787340032356" />
+      <entry key="S2" value="11.472178381741639" />
+      <entry key="S5" value="24.671126257127842" />
+      <entry key="S10" value="41.192658349368656" />
+      <entry key="S30" value="78.28401647593346" />
+      <entry key="S60" value="99.45041224651007" />
+      <entry key="M2" value="115.22789399468884" />
+      <entry key="M5" value="129.6548919374219" />
+      <entry key="M10" value="141.17781217857083" />
+      <entry key="M15" value="149.8543893439612" />
+      <entry key="M30" value="168.65174442262088" />
+      <entry key="H1" value="217.31545255484514" />
+      <entry key="H2" value="329.55541098707045" />
+      <entry key="H4" value="466.38881641223634" />
+      <entry key="D1" value="671.0292529412886" />
+      <entry key="W1" value="718.6272827593128" />
     </decayedShown>
   </component>
   <component name="NodePackageJsonFileManager">
@@ -556,7 +504,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747844387323</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="overall improve the web UI and performance">
+      <option name="closed" value="true" />
+      <created>1791802654535</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1791802654535</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -639,7 +595,8 @@
     <MESSAGE value="remove workflow" />
     <MESSAGE value="remove day picker" />
     <MESSAGE value="update artifact path" />
-    <option name="LAST_COMMIT_MESSAGE" value="update artifact path" />
+    <MESSAGE value="overall improve the web UI and performance" />
+    <option name="LAST_COMMIT_MESSAGE" value="overall improve the web UI and performance" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">

@@ -34,6 +34,7 @@ export default function Header() {
     { name: "Projects", href: "#projects" },
     { name: "Skills", href: "#skills" },
     { name: "Experience", href: "#experience" },
+    { name: "Reviews", href: "#reviews" },
     { name: "Contact", href: "#contact" },
   ]
 
