@@ -1,64 +1,144 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Card, CardContent } from "@/components/ui/card"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Badge } from "@/components/ui/badge"
+import { Smartphone, Layers, Globe, Cloud, Cpu, Sparkles } from "lucide-react"
+
+export type SkillCategory = {
+  id: string
+  title: string
+  icon: React.ReactNode
+  badge: string
+  description: string
+  coreSkills: string[]
+  supportingSkills: string[]
+}
 
 export default function Skills() {
-  const skillCategories = [
+  const categories: SkillCategory[] = [
     {
-      id: "mobile",
-      name: "Mobile Development",
-      skills: [
-        { name: "Android", level: 95 },
-        { name: "Kotlin", level: 95 },
-        { name: "Jetpack Compose", level: 90 },
-        { name: "MVVM/MVI", level: 90 },
-        { name: "Clean Architecture", level: 85 },
-        { name: "Hilt-Dagger/Koin", level: 85 },
-        { name: "Coroutines/Flow", level: 90 },
-        { name: "NFC/Iris/fingerprint Scanner", level: 80 },
-        { name: "Swift UI", level: 40 },
-
+      id: "android",
+      title: "Android Engineering",
+      icon: <Smartphone className="h-5 w-5 text-primary" />,
+      badge: "Primary Specialization",
+      description: "Modern Android application engineering, reactive asynchronous architectures, and performance tuning.",
+      coreSkills: [
+        "Kotlin",
+        "Jetpack Compose",
+        "Android SDK",
+        "Coroutines & Flow",
+        "Clean Architecture",
+        "MVVM / MVI",
+        "Hilt & Dagger",
+        "Room & DataStore",
+      ],
+      supportingSkills: [
+        "Java",
+        "Android Telephony APIs",
+        "Navigation Compose",
+        "WorkManager",
+        "Paging 3",
+        "Macrobenchmark",
+        "JUnit & Espresso",
       ],
     },
     {
-      id: "web",
-      name: "Web Development",
-      skills: [
-        { name: "React.js", level: 80 },
-        { name: "Next.js", level: 75 },
-        { name: "Tailwind CSS", level: 85 },
-        { name: "TypeScript", level: 80 },
-        { name: "JavaScript", level: 85 },
-        { name: "HTML/CSS", level: 90 },
-        { name: "Prisma ORM", level: 70 },
+      id: "cross-platform",
+      title: "Cross-Platform & Mobile",
+      icon: <Layers className="h-5 w-5 text-primary" />,
+      badge: "Multiplatform Architecture",
+      description: "Shared mobile architecture and UI frameworks across Android and iOS platforms.",
+      coreSkills: [
+        "Kotlin Multiplatform (KMP)",
+        "Compose Multiplatform",
+        "Shared Business Logic",
+        "Ktor HTTP Client",
+        "Koin Dependency Injection",
+      ],
+      supportingSkills: [
+        "SwiftUI",
+        "Combine",
+        "Multiplatform Persistence",
+        "RevenueCat & StoreKit",
+        "AdMob & Liftoff Mediation",
       ],
     },
     {
-      id: "backend",
-      name: "Backend & Database",
-      skills: [
-        { name: "Ktor", level: 75 },
-        { name: "MySQL", level: 80 },
-        { name: "SQLite", level: 85 },
-        { name: "Firestore", level: 85 },
-        { name: "FaunaDB", level: 70 },
-        { name: "PostgreSQL", level: 75 },
-        { name: "RESTful APIs", level: 90 },
+      id: "devices",
+      title: "Connected Devices & Hardware",
+      icon: <Cpu className="h-5 w-5 text-primary" />,
+      badge: "Differentiating Capability",
+      description: "Interfacing Android with physical hardware peripherals, sensors, and low-power wireless protocols.",
+      coreSkills: [
+        "Bluetooth Low Energy (BLE)",
+        "BLE Scanning & GATT Services",
+        "Nordic DFU (OTA Firmware)",
+        "Thermal Printers (ESC/POS, Sunmi, Zing)",
+      ],
+      supportingSkills: [
+        "Wi-Fi Direct Peer-to-Peer",
+        "Netty TCP Sockets",
+        "NFC Tag Reading",
+        "USB Host Devices",
+        "Iris & Fingerprint Scanners",
       ],
     },
     {
-      id: "tools",
-      name: "Tools & Platforms",
-      skills: [
-        { name: "Git", level: 90 },
-        { name: "GitHub Actions", level: 80 },
-        { name: "AWS", level: 75 },
-        { name: "Firebase", level: 90 },
-        { name: "Docker", level: 70 },
-        { name: "Vercel", level: 80 },
-        { name: "Netlify", level: 80 },
+      id: "ai",
+      title: "AI-Enabled Applications",
+      icon: <Sparkles className="h-5 w-5 text-primary" />,
+      badge: "Applied AI Integration",
+      description: "Integrating verified AI APIs, computer vision, and machine learning models into production mobile apps.",
+      coreSkills: [
+        "AI API Integration (OpenAI, Anthropic)",
+        "Google ML Kit (Vision, Barcode)",
+        "Streaming AI Content Delivery",
+      ],
+      supportingSkills: [
+        "Context Prompt Structuring",
+        "Audio Narration Integration",
+        "Edge Vision & Scanning",
+      ],
+    },
+    {
+      id: "web-backend",
+      title: "Web & Backend Systems",
+      icon: <Globe className="h-5 w-5 text-primary" />,
+      badge: "Full-Stack Supporting",
+      description: "Developing administrative portals, API services, and modern responsive web interfaces.",
+      coreSkills: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "RESTful API Integration",
+      ],
+      supportingSkills: [
+        "Ktor (Server-side Kotlin)",
+        "Prisma ORM",
+        "JOOQ & SQL",
+        "Zod Validation",
+        "PostgreSQL & MySQL",
+      ],
+    },
+    {
+      id: "cloud-devops",
+      title: "Cloud & Developer Tooling",
+      icon: <Cloud className="h-5 w-5 text-primary" />,
+      badge: "Infrastructure & CI/CD",
+      description: "Backend-as-a-service, cloud storage, crash monitoring, and automated deployment pipelines.",
+      coreSkills: [
+        "Firebase (Auth, Firestore, Storage)",
+        "Cloud Functions",
+        "Firebase Crashlytics & Analytics",
+        "Git & GitHub Actions",
+      ],
+      supportingSkills: [
+        "AWS (S3, CloudFront, SES)",
+        "GitLab CI",
+        "Auth0",
+        "Google Play Console & TestFlight",
       ],
     },
   ]
@@ -74,57 +154,81 @@ export default function Skills() {
           transition={{ duration: 0.5 }}
         >
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Skills</h2>
-            <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              My technical expertise and proficiency
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">Technical Competencies</h2>
+            <p className="mx-auto max-w-[720px] text-muted-foreground text-base sm:text-lg">
+              Structured engineering skills categorized by specialization depth and production application
             </p>
           </div>
         </motion.div>
-        <div className="mx-auto max-w-4xl py-12">
-          <Tabs defaultValue="mobile" className="w-full">
-            <TabsList className="grid w-full grid-cols-2 md:grid-cols-4">
-              {skillCategories.map((category) => (
-                <TabsTrigger key={category.id} value={category.id}>
-                  {category.name}
-                </TabsTrigger>
-              ))}
-            </TabsList>
-            {skillCategories.map((category) => (
-              <TabsContent key={category.id} value={category.id} className="mt-6">
-                <Card>
-                  <CardContent className="p-6">
-                    <div className="grid gap-6">
-                      {category.skills.map((skill, index) => (
-                        <motion.div
-                          key={index}
-                          className="space-y-2"
-                          initial={{ opacity: 0, y: 10 }}
-                          whileInView={{ opacity: 1, y: 0 }}
-                          viewport={{ once: true }}
-                          transition={{ duration: 0.3, delay: index * 0.1 }}
-                        >
-                          <div className="flex justify-between">
-                            <span className="text-sm font-medium">{skill.name}</span>
-                            <span className="text-sm text-muted-foreground">{skill.level}%</span>
-                          </div>
-                          <div className="h-2 w-full rounded-full bg-muted">
-                            <motion.div
-                              className="h-full rounded-full bg-primary"
-                              style={{ width: `${skill.level}%` }}
-                              initial={{ width: 0 }}
-                              whileInView={{ width: `${skill.level}%` }}
-                              viewport={{ once: true }}
-                              transition={{ duration: 0.8, delay: 0.3 + index * 0.1 }}
-                            />
-                          </div>
-                        </motion.div>
-                      ))}
+
+        <div className="mx-auto max-w-6xl py-10">
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {categories.map((cat, index) => (
+              <motion.div
+                key={cat.id}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4, delay: index * 0.08 }}
+                className="h-full"
+              >
+                <Card className="h-full flex flex-col border-border/70 hover:border-primary/40 transition-colors shadow-sm bg-card">
+                  <CardHeader className="pb-3">
+                    <div className="flex items-center justify-between gap-2">
+                      <div className="p-2 rounded-lg bg-primary/10 text-primary">
+                        {cat.icon}
+                      </div>
+                      <span className="text-[11px] font-semibold px-2 py-0.5 rounded-full border border-primary/20 bg-primary/5 text-primary">
+                        {cat.badge}
+                      </span>
+                    </div>
+                    <CardTitle className="text-lg font-bold mt-2 text-foreground">{cat.title}</CardTitle>
+                    <p className="text-xs text-muted-foreground leading-relaxed pt-1">
+                      {cat.description}
+                    </p>
+                  </CardHeader>
+
+                  <CardContent className="space-y-4 flex-grow pb-5">
+                    {/* Core Skills */}
+                    <div className="space-y-1.5">
+                      <span className="text-[11px] font-bold uppercase tracking-wider text-primary block">
+                        Core Expertise
+                      </span>
+                      <div className="flex flex-wrap gap-1.5">
+                        {cat.coreSkills.map((skill) => (
+                          <Badge
+                            key={skill}
+                            variant="default"
+                            className="text-xs font-medium px-2 py-0.5 bg-primary/90 hover:bg-primary text-primary-foreground"
+                          >
+                            {skill}
+                          </Badge>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Supporting Skills */}
+                    <div className="space-y-1.5 pt-2 border-t border-border/40">
+                      <span className="text-[11px] font-semibold uppercase tracking-wider text-muted-foreground block">
+                        Supporting &amp; Integrated
+                      </span>
+                      <div className="flex flex-wrap gap-1.5">
+                        {cat.supportingSkills.map((skill) => (
+                          <Badge
+                            key={skill}
+                            variant="outline"
+                            className="text-xs font-normal px-2 py-0.5 text-muted-foreground border-border/80"
+                          >
+                            {skill}
+                          </Badge>
+                        ))}
+                      </div>
                     </div>
                   </CardContent>
                 </Card>
-              </TabsContent>
+              </motion.div>
             ))}
-          </Tabs>
+          </div>
         </div>
       </div>
     </section>

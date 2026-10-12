@@ -2,44 +2,44 @@
 
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
-import { BookOpen, Code, Gamepad2, Leaf, Rocket, Shirt } from "lucide-react"
+import { Code2, Cpu, BookOpen, Compass, Trophy, Film } from "lucide-react"
 
 export default function Interests() {
   const interests = [
     {
-      icon: <Code className="h-10 w-10 text-primary" />,
-      title: "Competitive Programming",
-      description: "Enjoy doing competitive programming in Kotlin",
+      icon: <Code2 className="h-6 w-6 text-primary" />,
+      title: "Kotlin & Open Source",
+      description: "Experimenting with Kotlin Multiplatform advancements, Compose internals, and open-source tooling.",
     },
     {
-      icon: <Shirt className="h-10 w-10 text-primary" />,
-      title: "Sports",
-      description: "Enjoy playing badminton and soccer",
+      icon: <Cpu className="h-6 w-6 text-primary" />,
+      title: "Embedded & Hardware",
+      description: "Tinkering with microcontrollers, BLE beacons, IoT integrations, and hardware protocols.",
     },
     {
-      icon: <Leaf className="h-10 w-10 text-primary" />,
-      title: "Outdoors",
-      description: "Enjoy spending time outdoors and in nature",
+      icon: <BookOpen className="h-6 w-6 text-primary" />,
+      title: "Technical Reading",
+      description: "Studying software architecture, system reliability, and modern mobile engineering literature.",
     },
     {
-      icon: <BookOpen className="h-10 w-10 text-primary" />,
-      title: "Reading",
-      description: "Like reading books and expanding knowledge",
+      icon: <Trophy className="h-6 w-6 text-primary" />,
+      title: "Sports & Fitness",
+      description: "Playing competitive badminton and soccer to maintain balance, agility, and teamwork.",
     },
     {
-      icon: <Gamepad2 className="h-10 w-10 text-primary" />,
+      icon: <Compass className="h-6 w-6 text-primary" />,
+      title: "Outdoors & Travel",
+      description: "Exploring natural landscapes and hiking trails to disconnect and recharge.",
+    },
+    {
+      icon: <Film className="h-6 w-6 text-primary" />,
       title: "Documentaries",
-      description: "Enjoy watching documentaries on various topics",
-    },
-    {
-      icon: <Rocket className="h-10 w-10 text-primary" />,
-      title: "New Technologies",
-      description: "Exploring blockchain and cloud computing",
+      description: "Deep-diving into documentaries on engineering feats, history, and scientific discoveries.",
     },
   ]
 
   return (
-    <section id="interests" className="py-16 md:py-24 bg-background">
+    <section id="interests" className="py-16 md:py-24 bg-muted/30 border-t border-border/40">
       <div className="container px-4 md:px-6">
         <motion.div
           className="flex flex-col items-center justify-center space-y-4 text-center"
@@ -49,27 +49,28 @@ export default function Interests() {
           transition={{ duration: 0.5 }}
         >
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Interests</h2>
-            <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              What I enjoy doing in my free time
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">Personal Pursuits</h2>
+            <p className="mx-auto max-w-[720px] text-muted-foreground text-base sm:text-lg">
+              Interests and activities beyond day-to-day code delivery
             </p>
           </div>
         </motion.div>
-        <div className="mx-auto max-w-5xl py-12">
+
+        <div className="mx-auto max-w-5xl py-10">
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {interests.map((interest, index) => (
               <motion.div
-                key={index}
+                key={interest.title}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
+                transition={{ duration: 0.4, delay: index * 0.08 }}
               >
-                <Card className="h-full">
-                  <CardContent className="p-6 flex flex-col items-center text-center">
-                    <div className="mb-4 rounded-full bg-primary/10 p-4">{interest.icon}</div>
-                    <h3 className="text-xl font-bold mb-2">{interest.title}</h3>
-                    <p className="text-sm text-muted-foreground">{interest.description}</p>
+                <Card className="h-full border-border/70 hover:border-primary/40 transition-colors shadow-sm bg-card">
+                  <CardContent className="p-6 flex flex-col items-start space-y-3">
+                    <div className="rounded-lg bg-primary/10 p-3 text-primary">{interest.icon}</div>
+                    <h3 className="text-base font-bold text-foreground">{interest.title}</h3>
+                    <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">{interest.description}</p>
                   </CardContent>
                 </Card>
               </motion.div>
